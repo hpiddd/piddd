@@ -1,55 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>penggunaan Div, span, class, id</title>
-    <style>
-        .jarak {
-            margin: 40px;
-
-            border-style: solid;
-            border-width: 10px;
-            border-color: rgb(18, 18, 180);
-            background-color: aqua;
-
-            padding: 15px;
-        }
-
-
-        .penjelasan {background-color:rgb(14, 126, 255);
-        }
-
-
-        #inti {color:white;
-            background-color: black;
-        }
-        #judul {text-align: center;
-        background-color: darkturquoise;}
-        #penting {background-color: yellowgreen;}
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIKLAT 3</title>
 </head>
-
+<style>
+    table,th,td{
+        border: 1px solid black;
+    }
+    .heading{
+        border: 10px solid blue;
+        margin: 25px;
+        padding: 10px;
+        text-align: center;
+    }
+    .paragraf{
+        border: 4px solid yellow;
+        background-color: aqua;
+        margin: 25px;
+        padding: 10px;
+    }
+    .link{
+        margin: 25px;
+        padding: 10px;
+        text-align: center;
+    }
+    .image{
+        margin: 25px;
+        padding: 10px;
+        text-align: center;
+    }
+    .tabel{
+        border: 1px solid pink;
+        margin: 25px;
+        padding: 10px;
+    }
+    .list{
+        border: 10px solid purple; 
+        background-color: rgb(199, 178, 197);
+        width: 200px;
+     height: 250px;
+     margin: 50px;
+        margin: 25px;
+        padding: 10px;
+    }
+    #judul{
+        background-color: red;
+    }
+    </style>
 <body>
+    <div class="heading"><h1><b>KOMPUTER</b></h1></div>
+    <div class="image"><img src="th (1).jpg" alt="KOMPUTER" width="400px"></div>
+    <div class="link"><button><a href="https://hpiddd.github.io/hafid/">klik cuy</a></button></div>
 
-    <div>
-<h1 id="judul">PROGRAM </h1>
+    <div class="paragraf">
+        <h2>pengertian</h2>
+        <p><span id="judul">komputer</span> adalah perangkat elektronik yang <i>memanipulasi informasi atau data</i>. Komputer mampu menyimpan, mengambil, dan mengolah data. Anda mungkin telah mengetahui bahwa Anda dapat menggunakan komputer untuk mengetik dokumen, mengirim e-mail, bermain game, dan menjelajah Web. Anda juga dapat menggunakannya untuk mengubah atau membuat spreadsheet, presentasi, dan bahkan video.</p>
+        <p><u>Komputer</u> merupakan mesin boleh atur cara yang direka untuk membaca dan melaksanakan urutan sesebuah senarai arahan yang membuatkan ia <b>melakukan operasi aritmetik dan logik</b> berdasarkan angka binari. Pada asasnya, komputer terdiri dari ingatan jangka pendek dan ingatan jangka panjang untuk peyimpanan data; dan unit pemprosesan pusat yang berfungsi sebagai unit kawalan serta mengandungi unit logik aritmetik. Aksesori boleh dihubungkan supaya komputer dapat menerima input luar dan memaparkan output.
+        Unit pemproses komputer melaksanakan siri arahan yang membuatkan ia membaca, memanipulasi dan kemudian menyimpan data. Ujian dan arahan loncat membenarkannya untuk bergerak di dalam ruang program dan oleh itu melaksanakan arahan berlainan sebagai fungsi dari kedudukan semasa dari mesin itu atau persekitarannya.</p>
     </div>
-
-<div class="penjelasan"> 
-    <p><span id="inti"> program komputer</span> adalah urutan atau set instruksi dalam bahasa pemrograman untuk mengeksekusi komputer . <span id="inti">Program komputer</span> adalah salah satu komponen perangkat lunak , yang juga mencakup dokumentasi dan komponen tidak berwujud lainnya.
-          </p>
-</div>
-
-<div class="jarak"> 
-    <h1>penjelasan</h1>
-    <p><span id="penting">Program komputer</span> dalam bentuk yang dapat dibaca manusia disebut kode sumber . Kode sumber memerlukan <span id="penting">program komputer</span> lain untuk dijalankan karena komputer hanya dapat menjalankan instruksi mesin aslinya . Oleh karena itu, kode sumber dapat diterjemahkan ke instruksi mesin menggunakan kompiler bahasa . ( Program bahasa assembly diterjemahkan menggunakan assembler .) File yang dihasilkan disebut executable . Sebagai alternatif, kode sumber dapat dieksekusi dalam juru bahasa . 
-
-        Jika executable diminta untuk dieksekusi, maka sistem operasi memuatnya ke dalam memori dan memulai proses . Unit pemrosesan pusat akan segera beralih ke proses ini sehingga dapat mengambil, mendekode, dan kemudian menjalankan setiap instruksi mesin. 
-
-        Jika kode sumber diminta untuk dieksekusi, maka sistem operasi memuat juru bahasa yang sesuai ke dalam memori dan memulai proses. Penerjemah kemudian memuat kode sumber ke dalam memori untuk menerjemahkan dan mengeksekusi setiap pernyataan .  Menjalankan kode sumber lebih lambat daripada menjalankan yang dapat dieksekusi. Selain itu, juru bahasa harus diinstal di komputer.
-     </p>
-</div>
-
-
+    <div class="list">
+        <h1>jenis-jenis</h1>
+        <li>PC atau Personal Computer</li>
+        <li> Komputer Server</li>
+        <li>Komputer Desktop</li>
+        <li>Komputer Laptop</li>
+        <li>Supercomputer </li>
+        <li> Komputer Mainframe</li>
+    </div>
 </body>
-
 </html>
